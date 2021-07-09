@@ -39,6 +39,7 @@ class Personagem: #Classe de Objeto
             self.equipamento[0] = "Cota de malha"
             self.equipamento[1] = "Espada Grande"
             self.listaSkills.append("Pocao de vida")
+            self.equipamentoManager()
 
         elif self.classe == "Mago":
             self.forc = -1
@@ -57,6 +58,7 @@ class Personagem: #Classe de Objeto
             self.equipamento[0] = ""
             self.equipamento[1] = "Adaga"
             self.listaSkills.append("Pocao de vida")
+            self.equipamentoManager()
 
 
         self.verificarHP()

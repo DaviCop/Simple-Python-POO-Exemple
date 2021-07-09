@@ -43,5 +43,5 @@ class Party:
             if self.personagens[x] == False:
                 print("O Slot de Personagem", x, "Está Vazio!")
             else:
-                print("Slot:", x, "Está Ocupado por:", self.personagens[x].nome, "sClasse:", self.personagens[x].classe, "Nivel:", self.personagens[x].nivel)
+                print("Slot:", x, "Está Ocupado por:", self.personagens[x].nome, "Classe:", self.personagens[x].classe, "Nivel:", self.personagens[x].nivel)
 
